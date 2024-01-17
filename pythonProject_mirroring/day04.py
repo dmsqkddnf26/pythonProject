@@ -20,8 +20,7 @@ while True:
                 if number % i == 0:
                     is_prime = False
                     break
-        for number in range(n1, n2 + 1):
-            is_prime = True
+
 
             if is_prime:
                 print(f'{number} is prime number')

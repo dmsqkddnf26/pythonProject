@@ -1,20 +1,25 @@
-t1 = (5)
-print(type(t1))
-t2 = 5,
-print(type(t2))
-t3 = (5, )
-print(type(t3))
-t6 = "python", 'kim'  # packing
-print(type(t6), t6[1])
-subject, prof = t6  # unpacking
-# a, b, c = t6  # ValueError: not enough to unpack
-print(prof)
-print(subject)
-t7 = ()
-t8 = tuple()
-print(type(t7), type(t8), type(9,), type((9,)))
+import copy
+subjects = ["a", ["b", "c"], "d"]
+a = subjects
+b = subjects.copy()
+c = list(subjects)
+d = subjects[:]
+e = copy.deepcopy(a)
+subjects[1][1] = "x"
+print(subjects, a, b, c, d, e)
 
-t9 = 1, 2, 3
-t10 = 1, 2, 3, 1
-print(t9 == t10)
-print(t9 <= t10)
+# 문자열 immutable, 리스트는 mutable하니까
+
+# number_list = []
+# for number in range(1, 6):
+#     number_list.append(number)
+# print(number_list)
+#
+# number_list2 = [number for number in range(1, 6)]
+# print (number_list2)
+#
+# squares = list()
+# for i in range(1, 6, 1):
+#     squares.append(i*i)
+# print(squares)
+

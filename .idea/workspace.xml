@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="95f91768-d4a7-4611-bfc2-347d383e1a12" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/hi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pythonProject_mirroring/day05.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pythonProject_mirroring/day04.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject_mirroring/day04.py" afterDir="false" />
     </list>
@@ -43,6 +45,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.day04.executor": "Run",
     "Python.first.executor": "Run",
+    "Python.hi.executor": "Run",
     "Python.python01.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -77,6 +80,11 @@
           <url>file://$PROJECT_DIR$/pythonProject_mirroring/first.py</url>
           <line>1</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/pythonProject_mirroring/day04.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
